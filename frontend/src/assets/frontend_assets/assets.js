@@ -55,8 +55,8 @@ import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
 
 
-import logo from './logo.jpg'
-import hero_img from './hero_img.png'
+import logo from './logo-digital.png'
+import hero_img from './destacado.jpg'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
 import dropdown_icon from './dropdown_icon.png'
@@ -95,7 +95,7 @@ export const assets = {
     cross_icon
 }
 
-export const products = [
+export const productos = [
     {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",

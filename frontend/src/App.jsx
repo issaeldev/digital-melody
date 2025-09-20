@@ -15,7 +15,6 @@ const App = () => {
   return (
     <div className='px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]'>
       <Navbar/>
-
       <Routes>
         <Route path='/' element={<Landing />} />
         <Route path='/colecciones' element={<Colecciones />} />        
@@ -26,8 +25,7 @@ const App = () => {
         <Route path='login' element={<Login/>}/>
         <Route path='realizar-orden' element={<RealizarOrden/>}/>
         <Route path='ordenes' element={<Ordenes/>}/>
-       </Routes>
-
+      </Routes>
     </div>
   )
 }

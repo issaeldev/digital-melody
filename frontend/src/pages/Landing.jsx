@@ -1,11 +1,14 @@
 import React from 'react'
+import Destacado from '../components/Destacado'
+import UltimaColeccion from '../components/UltimaColeccion'
 
-const Home = () => {
+const Landing = () => {
   return (
     <div>
-      
+      <Destacado />
+      <UltimaColeccion />
     </div>
   )
 }
 
-export default Home
+export default Landing

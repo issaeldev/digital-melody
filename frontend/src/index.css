@@ -3,3 +3,7 @@
 a.active hr{
     display: block;
 }
+
+body {
+@apply font-mono;
+}
